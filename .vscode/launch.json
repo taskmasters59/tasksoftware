@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SimpleForm",
+            "request": "launch",
+            "mainClass": "SimpleForm",
+            "vmArgs": "--module-path C:/javafx-sdk-23.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "vmArgs": "--module-path C:/javafx-sdk-23.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "SplashScreen",
+            "request": "launch",
+            "mainClass": "SplashScreen",
+            "vmArgs": "--module-path C:/javafx-sdk-23.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "splash.Main",
+            "vmArgs": "--module-path C:/javafx-sdk-23.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "SplashScreen",
+            "request": "launch",
+            "mainClass": "splash.SplashScreen",
+            "vmArgs": "--module-path C:/javafx-sdk-23.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
